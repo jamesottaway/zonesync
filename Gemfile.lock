@@ -2,11 +2,16 @@ PATH
   remote: .
   specs:
     zonesync (0.0.1)
+      dns-zonefile (~> 1.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.2.5)
+    dns-zonefile (1.0.4)
+      polyglot
+      treetop
+    polyglot (0.3.5)
     rake (10.3.2)
     rspec (3.0.0)
       rspec-core (~> 3.0.0)
@@ -20,6 +25,8 @@ GEM
     rspec-mocks (3.0.0)
       rspec-support (~> 3.0.0)
     rspec-support (3.0.0)
+    treetop (1.5.3)
+      polyglot (~> 0.3)
 
 PLATFORMS
   ruby
